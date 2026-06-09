@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   cout<<"4" <<endl;
+   cout<< 5 << endl;
+   cout<<4+4;
+   cout<<endl;
+   // when the value are in "" are are consider as a string not number
+   cout<<"4*5";
+   cout<<"\n";
+   cout<<"4*5="<<4*5;
+   return 0;
+
+}
