@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float P = 100000 ;
+    float R = 12;
+    float T = 2;
+    float SIMPLE_INTREST = P*R*T/100;
+    cout<<"The simple intrest is "<<SIMPLE_INTREST<<endl;
+}
