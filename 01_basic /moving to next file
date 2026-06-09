@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Hello sir"; 
+    cout<<endl;
+    cout<<"how are you ";
+    cout<<"\n";
+    cout<<"have you done your work ?";
+    
+    
+}
