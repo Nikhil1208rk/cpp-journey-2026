@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    a=40;
+    b=20;
+    c=a+b;
+    d=a*b;
+    e=a/b;
+    cout<<"the sumof a and b is :-"<<c<<endl;
+    cout<<"the product of a and b is :-"<<d<<endl;
+    cout<<"the division of a and b is :-"<<e<<endl;
+}
