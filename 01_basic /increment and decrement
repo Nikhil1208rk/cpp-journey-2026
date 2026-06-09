@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x= 5;
+    int y = 10;
+    cout<<x<<endl;
+    x++; //this is used to increment the value of x by 1
+    cout<<x<<endl;
+    y--; // this is used to decrement the value of x by 1
+    cout<<y<<endl;
+    cout<<x++<<endl; // this will print the value of x first and then increment it by 1
+        cout<<x<<endl; // this will print the incremented value of x
+        cout<<++y<<endl; // this will increment the value of y first and then print it
+    return 0;
+}
+
+
+// x++ is called post-increment operator and ++x is called pre-increment operator. The difference between them is that in post-increment, the value of x is first used and then incremented, while in pre-increment, the value of x is first incremented and then used.
