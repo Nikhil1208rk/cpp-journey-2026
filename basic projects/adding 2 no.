@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{ float x;
+    cout<<"enterthe ist numbers :-";
+cin>>x;
+int y;
+ cout<<"enterthe 2nd numbers :-";
+cin>>y;
+cout<<"the sum of "<<x<<" and "<<y<<" is "<<x+y<<endl;
+}
