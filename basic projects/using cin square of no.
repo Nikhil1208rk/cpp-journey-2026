@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int num;
+    cout<< "entre the no. of find its square:-";
+    cin>>num;
+    cout<<"the square of "<<num<<" is "<<num*num<<endl;
+}
+//this is a syntax to run input in the terminal
+//g++ filename.cpp -o outputname
+//.\outputname.exe
