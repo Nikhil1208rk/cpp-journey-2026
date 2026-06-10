@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float r = 10;
+    float volume_of_sphere = (4.0/3.0)*3.14*(r*r*r);
+    cout<<"the volume of sphere is "<<volume_of_sphere<<endl;
+    return 0;
+}
