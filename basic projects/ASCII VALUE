@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    char x = 'a';
+    char y = 'A';
+    cout<<x<<endl;
+    cout<<(int)x;
+
+    cout<<y<<endl;
+    cout<<(int)y;
+    
+
+
+    
+
+}
