@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int c,s;
+    cout<<"enter cost price";
+    cin>>c;
+
+    cout<<"enter selling price";
+    cin>>s;
+    if (c>s)
+    cout<<"loss"<<"\n"<<"total loss:-"<<c-s;
+    else if(s>c)
+    cout<<"profit "<<"\n"<<"total profit: "<<s-c;
+    else if(s==c)
+    cout<<"no profit no loss";
+
+
+
+}
