@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float x;
+    cout<<"enter the no.";
+    cin>>x;
+    int y = (int)x;
+    
+    
+    if (y==x)
+    cout<<"it is integer";
+    else
+    cout<<"it is float";
+
+}
