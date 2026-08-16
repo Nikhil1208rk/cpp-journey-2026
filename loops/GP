@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+   
+    int n;
+    cout<<"enter n:-";
+    cin>>n;
+   
+    int a,r;
+    cout<<"enter a:-";
+    cin>>a;
+    
+    cout<<"enter r:-";
+    cin>>r;
+    for (int i = 1; i<=n;i++)
+        { cout<<a<<" ";
+         a *= r;
+}
+
+
+
+}
